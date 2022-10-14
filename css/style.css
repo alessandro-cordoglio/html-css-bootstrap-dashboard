@@ -25,10 +25,14 @@ body{
 }
 
 /* -------------DOCUMENT STYLE--------- */
-/* aside */
+/* common */
 .hide{
     display: none;
 }
+.show{
+    display: block;
+}
+/* aside */
 .ms-stats{
     font-size: 21px;
 }
@@ -61,6 +65,13 @@ body{
     }
     .ms-h-logo{
         display: none;
+    }
+
+    .show{
+        display: none;
+    }
+    #ms-second-col-bluesection{
+        margin-top: 0 !important;
     }
 }
 
