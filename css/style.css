@@ -1,3 +1,8 @@
+@import url(fondamentali.css);
+
+
+
+
 /* variables */
 :root{
     --ms-primary-color:#F8F9FA;
@@ -6,3 +11,33 @@
 }
 
 /* utilities */
+.bg-color-primary{
+    background-color: var(--ms-primary-color);
+}
+.bg-color-secondary{
+    background-color: var(--ms-secondary-color);
+}
+.bg-color-secondary-dark{
+    background-color: var(--ms-secondary-color-dark);
+}
+
+/* -------------DOCUMENT STYLE--------- */
+/* aside */
+.hide{
+    display: none;
+}
+.ms-stats{
+    font-size: 21px;
+}
+
+
+
+
+
+/* ------------- RESPONSIVE--------- */
+/* lg */
+@media screen and (min-width: 1200px) {
+    .hide{
+        display: block;
+    }
+}

@@ -1,0 +1,22 @@
+/* fondamentali */
+.ms-page-container{
+    height: calc(100% - 80px);
+}
+
+body{
+    height: 100vh;
+}
+
+header{
+    padding: 20px;
+    height: 80px;
+}
+
+main{
+    width: calc(100vw - 112px);
+    overflow-y: auto;
+}
+aside{
+    width:max-content ;
+    background-image: url(../img/sidebar-bg.png);
+}
