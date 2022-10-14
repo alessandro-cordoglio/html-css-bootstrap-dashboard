@@ -1,7 +1,10 @@
 @import url(fondamentali.css);
 
 
-
+/* typography */
+body{
+    font-family: 'Roboto', sans-serif;
+}
 
 /* variables */
 :root{
@@ -37,13 +40,15 @@
 .ms-h-logo #mobile{
     width: 40px;
 }
-
-
-
-/* header */
 #bell-btn{
     color: orange;
 }
+
+/* main */
+.ms-main-tags{
+    font-size: 14px;
+}
+
 
 /* ------------- RESPONSIVE--------- */
 /* lg */
