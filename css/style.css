@@ -60,3 +60,6 @@
 }
 
 /* ------------- ON HOVER--------- */
+.ms-hover-dark:hover{
+    background:rgba(0,0,0,0.3) !important;
+}
