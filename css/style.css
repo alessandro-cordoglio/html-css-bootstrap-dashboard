@@ -29,10 +29,15 @@
 .ms-stats{
     font-size: 21px;
 }
+.ms-h-logo #mobile{
+    width: 40px;
+    object-fit: contain;
+}
 
-
-
-
+/* header */
+#bell-btn{
+    color: orange;
+}
 
 /* ------------- RESPONSIVE--------- */
 /* lg */
@@ -42,5 +47,8 @@
     }
     main{
         width: calc(100vw - 112px);
+    }
+    .ms-h-logo{
+        display: none;
     }
 }

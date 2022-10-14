@@ -8,8 +8,8 @@ body{
 }
 
 header{
-    padding: 20px;
     height: 80px;
+    padding: 20px 0px;
 }
 
 main{
