@@ -40,4 +40,7 @@
     .hide{
         display: block;
     }
+    main{
+        width: calc(100vw - 112px);
+    }
 }
