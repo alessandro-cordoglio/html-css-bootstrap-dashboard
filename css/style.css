@@ -29,10 +29,16 @@
 .ms-stats{
     font-size: 21px;
 }
+#ms-admin-container{
+    height: calc(100% - 104px)
+}
+
+/* header */
 .ms-h-logo #mobile{
     width: 40px;
-    object-fit: contain;
 }
+
+
 
 /* header */
 #bell-btn{
