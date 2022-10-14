@@ -41,7 +41,7 @@
 
 /* ------------- RESPONSIVE--------- */
 /* lg */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 992px) {
     .hide{
         display: block;
     }
@@ -52,3 +52,5 @@
         display: none;
     }
 }
+
+/* ------------- ON HOVER--------- */
