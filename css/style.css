@@ -52,6 +52,33 @@ body{
 .ms-main-tags{
     font-size: 14px;
 }
+.ms-table{
+    font-size: 14px;
+    font-weight: bold;
+}
+.ms-table img{
+    width: 28px;
+    background-color: transparent;
+    border-radius:50px;
+    margin-right: 5px;
+}
+.ms-table{
+    text-align: center;
+}
+.ms-table th:first-child{
+    text-align: left;
+}
+.ms-table td:first-child{
+    text-align: left;
+    margin: 0;
+}
+.ms-table td{
+    padding-top: 20px;
+}
+.ms-table i{
+    font-size: 13px;
+}
+
 
 
 /* ------------- RESPONSIVE--------- */

@@ -13,8 +13,9 @@ header{
 }
 
 main{
-    width: calc(100vw - 50px);
+    width: calc(100vw - 34px);
     overflow-y: auto;
+    overflow-x: hidden;
 }
 aside{
     width:max-content ;
