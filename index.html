@@ -21,16 +21,16 @@
             <div class="col-1 ms-h-logo">
                  <img id="mobile" src="img/mobile-logo.png" alt="">
             </div>
-            <div class="col-2 hide">
+            <div class="col-2 ms-hide">
                 <img id="desktop" src="img/logo.svg" alt="">
             </div>
             <div class="col">
                 <input class="form-control bg-secondary bg-opacity-10 border-0 py-2" placeholder="Prova a cercare: Lezioni di Laravel" type="text">
             </div>
             <div class="col-1 col-lg-2 d-flex justify-content-end">
-                <button class="ms-hover-dark hide btn"><i class="fa-solid fa-list"></i></button>
-                <button class="ms-hover-dark hide btn"><i class="fa-solid fa-circle-question"></i></button>
-                <button class="ms-hover-dark hide btn"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                <button class="ms-hover-dark ms-hide btn"><i class="fa-solid fa-list"></i></button>
+                <button class="ms-hover-dark ms-hide btn"><i class="fa-solid fa-circle-question"></i></button>
+                <button class="ms-hover-dark ms-hide btn"><i class="fa-solid fa-ellipsis-vertical"></i></button>
                 <div class="dropdown ">
                     <button id="bell-btn" class="ms-hover-dark btn"  type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-bell"></i></button>
                     <ul class="dropdown-menu">
@@ -48,7 +48,7 @@
                     <div class="ms-hover-dark d-flex py-2">
                         <a class="d-flex text-white text-decoration-none align-items-center" href="">
                             <i class="fa-solid fa-house"></i>
-                            <div class="ms-3 hide">
+                            <div class="ms-3 ms-hide">
                                 <span>Home</span>
                             </div>
                         </a>
@@ -56,7 +56,7 @@
                     <div class="ms-hover-dark d-flex py-2">
                         <a class="d-flex text-white text-decoration-none align-items-center" href="">
                             <i class="ms-stats fa-solid fa-chart-simple"></i>
-                            <div class="ms-3 hide">
+                            <div class="ms-3 ms-hide">
                                 <span>Stats</span>
                             </div>
                         </a>
@@ -64,7 +64,7 @@
                     <div class="ms-hover-dark py-2" >
                         <a class="d-flex text-white align-items-center text-decoration-none" href="">
                             <i class="fa-solid fa-signal"></i>
-                            <div class="ms-3 hide">
+                            <div class="ms-3 ms-hide">
                                 <span>Signals</span>
                             </div>
                         </a>     
@@ -74,7 +74,7 @@
             <div id="ms-admin-container" class=" flex-column-reverse d-flex">
                 <a class="ms-hover-dark d-flex text-decoration-none text-white align-items-center py-2" href="">
                     <i class="fa-solid fa-gear"></i>
-                    <div class="ms-3 hide">
+                    <div class="ms-3 ms-hide">
                         <span>Admin</span>
                     </div>
                 </a>
@@ -97,16 +97,16 @@
                             <div class="ms-1 text-center ">
                                 <i class="fa-solid fa-angles-right"></i>
                             </div>
-                            <div class="show ms-main-tags ms-2 px-2 text-center bg-black bg-opacity-25 rounded-pill ">
+                            <div class="ms-show ms-main-tags ms-2 px-2 text-center bg-black bg-opacity-25 rounded-pill ">
                                 +
                             </div>
-                            <div class="hide ms-main-tags ms-2 px-2 text-center bg-black bg-opacity-25 rounded-pill ">
+                            <div class="ms-hide ms-main-tags ms-2 px-2 text-center bg-black bg-opacity-25 rounded-pill ">
                                Boolean mobile app
                             </div>
-                            <div class="hide ms-main-tags ms-2 px-2 text-center bg-black bg-opacity-25 rounded-pill ">
+                            <div class="ms-hide ms-main-tags ms-2 px-2 text-center bg-black bg-opacity-25 rounded-pill ">
                                 Boolean web app
                             </div>
-                            <div class="hide ms-main-tags ms-2 px-2 text-center bg-black bg-opacity-25 rounded-pill ">
+                            <div class="ms-hide ms-main-tags ms-2 px-2 text-center bg-black bg-opacity-25 rounded-pill ">
                                 Boolean blog app
                             </div>
                         </div>
@@ -316,8 +316,9 @@
                                   </div>  
                             </div>
                         </div>
+                        <div id="right" class="col-12 col-lg">
 
-                        <div id="right" class="col-12 col-lg"></div>
+                        </div>
                     </div>
                 </div>
             </section>
