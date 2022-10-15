@@ -78,12 +78,16 @@ body{
 .ms-table i{
     font-size: 13px;
 }
+.ms-table th:nth-child(2), .ms-table th:nth-child(3), .ms-table td:nth-child(2), .ms-table td:nth-child(3){
+    display: none;
+}
+
 
 
 
 /* ------------- RESPONSIVE--------- */
 /* lg */
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1200px) {
     .hide{
         display: block;
     }
@@ -100,7 +104,21 @@ body{
     #ms-second-col-bluesection{
         margin-top: 0 !important;
     }
+   
 }
+
+@media screen and (min-width: 768px ) {
+    .ms-table th:nth-child(3), .ms-table td:nth-child(3){
+        display: table-cell;
+    }
+}
+@media screen and (min-width: 992px) {
+    .ms-table th:nth-child(2), .ms-table th:nth-child(3), .ms-table td:nth-child(2), .ms-table td:nth-child(3){
+        display: table-cell;
+    }
+}
+
+
 
 /* ------------- ON HOVER--------- */
 .ms-hover-dark:hover{
