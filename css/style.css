@@ -26,10 +26,10 @@ body{
 
 /* -------------DOCUMENT STYLE--------- */
 /* common */
-.hide{
+.ms-hide{
     display: none;
 }
-.show{
+.ms-show{
     display: block;
 }
 /* aside */
@@ -81,9 +81,22 @@ body{
 .ms-table th:nth-child(2), .ms-table th:nth-child(3), .ms-table td:nth-child(2), .ms-table td:nth-child(3){
     display: none;
 }
-
-
-
+.todo_style{
+    padding: 10px 20px;
+}
+.form_style{
+    border: 1px solid lightgray;
+    padding: 15px 5px;
+    margin: 0 !important;
+}
+.form_style:first-child{
+    border-bottom: none;
+    border-radius: 10px 10px 0 0 ;
+}
+.form_style:last-child{
+    border-top: none;
+    border-radius: 0px 0px 10px 10px ;
+}
 
 /* ------------- RESPONSIVE--------- */
 /* lg */
