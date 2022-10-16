@@ -82,20 +82,25 @@ body{
     display: none;
 }
 .todo_style{
-    padding: 10px 20px;
-}
-.form_style{
     border: 1px solid lightgray;
-    padding: 15px 5px;
-    margin: 0 !important;
+    border-radius: 10px;
 }
-.form_style:first-child{
-    border-bottom: none;
-    border-radius: 10px 10px 0 0 ;
+.check_container:first-child{
+    border-bottom: 1px solid lightgray;
 }
-.form_style:last-child{
-    border-top: none;
-    border-radius: 0px 0px 10px 10px ;
+.check_container:last-child{
+    border-top: 1px solid lightgray;
+}
+.check_container div{
+    margin-left: 40px;
+    padding: 10px 0;
+}
+.user_style{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+.user_style img{
+    border-radius: 10px;
 }
 
 /* ------------- RESPONSIVE--------- */
@@ -125,11 +130,13 @@ body{
         display: table-cell;
     }
 }
+
 @media screen and (min-width: 992px) {
     .ms-table th:nth-child(2), .ms-table th:nth-child(3), .ms-table td:nth-child(2), .ms-table td:nth-child(3){
         display: table-cell;
     }
 }
+
 @media screen and (min-width: 1200px){
     .todo_margin{
         margin: 0 !important;
