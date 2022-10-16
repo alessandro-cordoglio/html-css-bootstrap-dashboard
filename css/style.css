@@ -102,6 +102,9 @@ body{
 .user_style img{
     border-radius: 10px;
 }
+.info_chart_container:first-child{
+    margin-top: 1px solid lightgray;
+}
 
 /* ------------- RESPONSIVE--------- */
 /* lg */
